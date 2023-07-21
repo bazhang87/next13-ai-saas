@@ -7,25 +7,25 @@ const testimonials = [
     name: "Joel",
     avatar: "J",
     title: "Software Engineer",
-    description: "This is the best application I've ever used!",
+    description: "GPTaaS has been a game-changer for our business. We were able to automate our content creation process, which has saved us a lot of time and money. The results have been amazing, and our customers are loving the new content.",
   },
   {
     name: "Antonio",
     avatar: "A",
     title: "Designer",
-    description: "I use this daily for generating new photos!",
+    description: "I was skeptical at first, but GPTaaS has really exceeded my expectations. I've been able to generate high-quality content in a fraction of the time it used to take me. I'm so glad I decided to give it a try.",
   },
   {
     name: "Mark",
     avatar: "M",
     title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
+    description: "GPTaaS is the most powerful generative AI tool I've ever used. It's helped me to take my content marketing to the next level. I highly recommend it to anyone who wants to create high-quality content on a consistent basis.",
   },
   {
     name: "Mary",
     avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    title: "Entrepeneur",
+    description: "GPTaaS is the most powerful generative AI tool I've ever used. It's helped me to take my content marketing to the next level. I highly recommend it to anyone who wants to create high-quality content on a consistent basis.",
   },
 ];
 
