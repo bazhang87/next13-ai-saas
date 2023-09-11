@@ -22,7 +22,7 @@ const testimonials = [
     description: "GPTaaS has been a game-changer for our business. We were able to automate our content creation process, which has saved us a lot of time and money. The results have been amazing, and our customers are loving the new content.",
   },
   {
-    name: "Mary",
+    name: "Wendy",
     avatar: "M",
     title: "Entrepeneur",
     description: "GPTaaS is a lifesaver for busy professionals. It's so easy to use, and the results are always top-notch. I can't imagine my life without it.",
