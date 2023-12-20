@@ -39,7 +39,7 @@ export const LandingContent = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
-                  <p className="text-lg">{item.serviceName}</p>
+                  <p className="text-lg">{item.name}</p>
                   <p className="text-zinc-400 text-sm">{item.serviceTitle}</p>
                 </div>
               </CardTitle>
