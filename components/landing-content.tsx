@@ -4,8 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Joel",
-    avatar: "J",
+    name: "LLM-powered BizOps Automation",
+    avatar: "L",
     title: "Software Engineer",
     description: "I'm very impressed with GPTaaS. It's a powerful and easy-to-use tool that has helped me to improve my productivity and the quality of my work. I've found it to be an incredibly powerful tool that can help me to automate tasks, generate code, and write documentation.",
   },
@@ -32,15 +32,15 @@ const testimonials = [
 export const LandingContent = () => {
   return (
     <div className="px-10 pb-20">
-      <h2 className="text-center text-4xl text-white font-extrabold mb-10">Testimonials</h2>
+      <h2 className="text-center text-4xl text-white font-extrabold mb-10">Our AI-powered Services</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
-          <Card key={item.description} className="bg-[#192339] border-none text-white">
+          <Card key={item.serviceDescription} className="bg-[#192339] border-none text-white">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
-                  <p className="text-lg">{item.name}</p>
-                  <p className="text-zinc-400 text-sm">{item.title}</p>
+                  <p className="text-lg">{item.serviceName}</p>
+                  <p className="text-zinc-400 text-sm">{item.serviceTitle}</p>
                 </div>
               </CardTitle>
               <CardContent className="pt-4 px-0">
